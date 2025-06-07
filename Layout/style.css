@@ -430,7 +430,7 @@ body {
 }
 
 .news-featured-item .item-image {
-    flex: 1 1 33.33%;
+    flex: 1 1 100%;
 }
 
 .news-featured-item .item-info {
