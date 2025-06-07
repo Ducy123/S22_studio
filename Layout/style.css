@@ -685,6 +685,18 @@ body {
         --side-margin: 15px;
     }
 
+    /* --- Sửa lỗi responsive cho trang Bảng tin --- */
+    .news-featured-item {
+        flex-direction: column;
+    }
+
+    .news-featured-item .item-info {
+        margin-top: 15px;
+        /* Thêm khoảng cách giữa ảnh và chữ */
+        text-align: left;
+        /* Giữ cho chữ canh lề trái */
+    }
+
     .logo {
         transform: scale(2.5);
         margin-left: 10px;
